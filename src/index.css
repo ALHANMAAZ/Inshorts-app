@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.animate-custom {
+  animation: nkOrPFBD0Kbs0473uO2h 1.75s infinite forwards;
+}
