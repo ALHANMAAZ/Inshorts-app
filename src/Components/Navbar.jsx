@@ -124,7 +124,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <hr />
-              <h2 className="text-2xl font-bold pt-4 pb-2">Categories</h2>
+              {/* <h2 className="text-2xl font-bold pt-4 pb-2">Categories</h2>
               <li className=" py-2">
                 <a href="#about" className="hover:text-gray-400 cursor-pointer">
                   About
@@ -145,7 +145,7 @@ const Navbar = () => {
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
