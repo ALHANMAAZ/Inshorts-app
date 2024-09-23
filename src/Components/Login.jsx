@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import Container from "./Container";
-// import { account } from "../appwrite/auth";
 import { useNavigate } from "react-router-dom";
 import myContext from "../Context/Context";
 import { signInWithEmailAndPassword } from "firebase/auth";
@@ -64,9 +63,6 @@ const Login = () => {
             {/* Form Section */}
             <div className="w-full lg:w-2/3 lg:pl-6">
               <div className="card-body py-5">
-                {/* Form submission */}
-                {/* <form onSubmit={logIn}> */}
-                {/* Email input */}
                 <div className="mb-4">
                   <label className="form-label text-sm" htmlFor="email">
                     Email
@@ -97,11 +93,6 @@ const Login = () => {
                     required
                   />
                 </div>
-
-                {/* Display error message
-                  {error && <p className="text-red-500 text-sm">{error}</p>} */}
-
-                {/* Submit button */}
                 <button
                   type="submit"
                   className="btn btn-primary w-full mb-4 bg-custom-red text-white py-2 px-4 rounded-md"
@@ -109,7 +100,6 @@ const Login = () => {
                 >
                   Log in
                 </button>
-                {/* </form> */}
               </div>
             </div>
           </div>

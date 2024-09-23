@@ -5,7 +5,6 @@ const SimpleNav = () => {
   return (
     <>
       <div className="box-border font-roboto mt-[110px]">
-        {/* Adjust the margin-top based on the Navbar height */}
         <div className="flex justify-between items-center bg-custom-red h-14 w-full max-w-[965px] mx-auto px-4 py-2 shadow-custom">
           <p className="text-white text-sm font-light xs:w-80 xxs:w-72">
             For the best experience use the

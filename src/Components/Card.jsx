@@ -1,14 +1,12 @@
 import React, { useContext } from "react";
-import { data } from "../Services/Api";
 import myContext from "../Context/Context";
 import { Link } from "react-router-dom";
 
 const Card = () => {
-  console.log(data, "data");
   const context = useContext(myContext);
   const { getNews, news } = context;
-  console.log(getNews, "getNews");
-  console.log(news, "news");
+  // console.log(getNews, "getNews");
+  // console.log(news, "news");
 
   return (
     <>
@@ -64,7 +62,7 @@ const Card = () => {
               </div>
             ) : (
               <div className="w-full text-center py-10">
-                <h2 className="text-lg font-semibold">News is not available</h2>
+                <h2 className="text-lg font-semibold">News Loading ...</h2>
               </div>
             )}
           </div>

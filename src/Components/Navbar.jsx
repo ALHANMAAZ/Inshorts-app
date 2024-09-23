@@ -8,7 +8,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   const user = JSON.parse(localStorage.getItem("user"));
-  // console.log(user.user.email);
   const dispatch = useNavigate();
   const logout = () => {
     localStorage.clear("user");

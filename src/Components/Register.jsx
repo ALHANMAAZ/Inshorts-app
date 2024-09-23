@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth, fireDB } from "../FireBase/Fireabase";
 import { addDoc, collection } from "firebase/firestore";
-import Loader from "../Components/Loader";
 import Container from "./Container";
 
 function Register() {
@@ -64,7 +63,6 @@ function Register() {
   return (
     <Container>
       <div className=" mx-auto w-full max-w-3xl p-6 rounded font-roboto">
-        {/* {loading && <Loader />}S */}
         <div className=" bg-gray-800 px-10 py-10 rounded-xl ">
           <div className="">
             <h1 className="text-center text-white text-xl mb-4 font-bold">
